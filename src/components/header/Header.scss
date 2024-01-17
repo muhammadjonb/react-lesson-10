@@ -1,0 +1,43 @@
+header{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &_items{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+    }
+    &_link{
+        color: #000;
+        font-size: 16px;
+        font-weight: 600;
+        transition: 0.2s;
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+    .active{
+        color: #B88E2F;
+    }
+    &_icons{
+        display: flex;
+        align-items: center;
+        gap: 44px;
+        ion-icon{
+            width: 28px;
+            height: 28px;
+            color: #000;
+            cursor: pointer;
+            transition: 0.2s;
+            &:hover{
+                opacity: 0.7;
+            }
+        }
+    }
+}
